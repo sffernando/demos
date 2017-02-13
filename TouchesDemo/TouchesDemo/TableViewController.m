@@ -7,6 +7,9 @@
 //
 
 #import "TableViewController.h"
+#import "ClickInTableViewCellController.h"
+#import "ExpandTheClickEreaController.h"
+#import "PassTouchesToSuperViewController.h"
 
 @interface TableViewController ()
 
@@ -22,7 +25,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
+    self.navigationItem.title = @"首页";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 }
 
@@ -63,17 +66,22 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController *controller = nil;
     switch (indexPath.row) {
         case 0:
+            controller = [[ExpandTheClickEreaController alloc] init];
             break;
         case 1:
-            
+            controller = [[PassTouchesToSuperViewController alloc] init];
             break;
         case 2:
-            
+            controller = [[ClickInTableViewCellController alloc] init];
             break;
         default:
             break;
+    }
+    if (controller) {
+        [self.navigationController pushViewController:controller animated:YES];
     }
 }
 
