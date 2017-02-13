@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2F5B461E51527E00122D50 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B451E51527E00122D50 /* TableViewController.m */; };
+		ED2F5B561E51555300122D50 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B4B1E51555300122D50 /* GreenView.m */; };
+		ED2F5B571E51555300122D50 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B4D1E51555300122D50 /* YellowView.m */; };
+		ED2F5B581E51555300122D50 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B511E51555300122D50 /* BlueView.m */; };
+		ED2F5B591E51555300122D50 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B551E51555300122D50 /* RedView.m */; };
 		ED53E8741E50B613000411FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8731E50B613000411FB /* main.m */; };
 		ED53E8771E50B613000411FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8761E50B613000411FB /* AppDelegate.m */; };
-		ED53E87A1E50B613000411FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8791E50B613000411FB /* ViewController.m */; };
 		ED53E87D1E50B613000411FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED53E87B1E50B613000411FB /* Main.storyboard */; };
 		ED53E87F1E50B613000411FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED53E87E1E50B613000411FB /* Assets.xcassets */; };
 		ED53E8821E50B613000411FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED53E8801E50B613000411FB /* LaunchScreen.storyboard */; };
 		ED53E88D1E50B613000411FB /* TouchesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E88C1E50B613000411FB /* TouchesDemoTests.m */; };
 		ED53E8981E50B613000411FB /* TouchesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8971E50B613000411FB /* TouchesDemoUITests.m */; };
-		ED53E8A81E50B652000411FB /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8A71E50B652000411FB /* RedView.m */; };
-		ED53E8AB1E50B664000411FB /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8AA1E50B664000411FB /* GreenView.m */; };
-		ED53E8AE1E50B674000411FB /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8AD1E50B674000411FB /* BlueView.m */; };
-		ED53E8B11E50B690000411FB /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8B01E50B690000411FB /* YellowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +39,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED2F5B441E51527E00122D50 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		ED2F5B451E51527E00122D50 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		ED2F5B4A1E51555300122D50 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		ED2F5B4B1E51555300122D50 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		ED2F5B4C1E51555300122D50 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		ED2F5B4D1E51555300122D50 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
+		ED2F5B501E51555300122D50 /* BlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		ED2F5B511E51555300122D50 /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		ED2F5B541E51555300122D50 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		ED2F5B551E51555300122D50 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		ED53E86F1E50B613000411FB /* TouchesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED53E8731E50B613000411FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED53E8751E50B613000411FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED53E8761E50B613000411FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED53E8781E50B613000411FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED53E8791E50B613000411FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED53E87C1E50B613000411FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED53E87E1E50B613000411FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED53E8811E50B613000411FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,14 +63,6 @@
 		ED53E8931E50B613000411FB /* TouchesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED53E8971E50B613000411FB /* TouchesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesDemoUITests.m; sourceTree = "<group>"; };
 		ED53E8991E50B613000411FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED53E8A61E50B652000411FB /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
-		ED53E8A71E50B652000411FB /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
-		ED53E8A91E50B664000411FB /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
-		ED53E8AA1E50B664000411FB /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
-		ED53E8AC1E50B674000411FB /* BlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
-		ED53E8AD1E50B674000411FB /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
-		ED53E8AF1E50B690000411FB /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
-		ED53E8B01E50B690000411FB /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED2F5B471E51555300122D50 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5B481E51555300122D50 /* ClickInTableViewCell */,
+				ED2F5B4E1E51555300122D50 /* ExpandTheClickErea */,
+				ED2F5B521E51555300122D50 /* PassTouchesToSuperView */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		ED2F5B481E51555300122D50 /* ClickInTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5B491E51555300122D50 /* views */,
+			);
+			path = ClickInTableViewCell;
+			sourceTree = "<group>";
+		};
+		ED2F5B491E51555300122D50 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5B4A1E51555300122D50 /* GreenView.h */,
+				ED2F5B4B1E51555300122D50 /* GreenView.m */,
+				ED2F5B4C1E51555300122D50 /* YellowView.h */,
+				ED2F5B4D1E51555300122D50 /* YellowView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		ED2F5B4E1E51555300122D50 /* ExpandTheClickErea */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5B4F1E51555300122D50 /* views */,
+			);
+			path = ExpandTheClickErea;
+			sourceTree = "<group>";
+		};
+		ED2F5B4F1E51555300122D50 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5B501E51555300122D50 /* BlueView.h */,
+				ED2F5B511E51555300122D50 /* BlueView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		ED2F5B521E51555300122D50 /* PassTouchesToSuperView */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5B531E51555300122D50 /* views */,
+			);
+			path = PassTouchesToSuperView;
+			sourceTree = "<group>";
+		};
+		ED2F5B531E51555300122D50 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5B541E51555300122D50 /* RedView.h */,
+				ED2F5B551E51555300122D50 /* RedView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		ED53E8661E50B613000411FB = {
 			isa = PBXGroup;
 			children = (
@@ -113,15 +176,15 @@
 		ED53E8711E50B613000411FB /* TouchesDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ED53E8A51E50B634000411FB /* views */,
 				ED53E8751E50B613000411FB /* AppDelegate.h */,
 				ED53E8761E50B613000411FB /* AppDelegate.m */,
-				ED53E8781E50B613000411FB /* ViewController.h */,
-				ED53E8791E50B613000411FB /* ViewController.m */,
+				ED2F5B441E51527E00122D50 /* TableViewController.h */,
+				ED2F5B451E51527E00122D50 /* TableViewController.m */,
 				ED53E87B1E50B613000411FB /* Main.storyboard */,
 				ED53E87E1E50B613000411FB /* Assets.xcassets */,
 				ED53E8801E50B613000411FB /* LaunchScreen.storyboard */,
 				ED53E8831E50B613000411FB /* Info.plist */,
+				ED2F5B471E51555300122D50 /* controllers */,
 				ED53E8721E50B613000411FB /* Supporting Files */,
 			);
 			path = TouchesDemo;
@@ -151,21 +214,6 @@
 				ED53E8991E50B613000411FB /* Info.plist */,
 			);
 			path = TouchesDemoUITests;
-			sourceTree = "<group>";
-		};
-		ED53E8A51E50B634000411FB /* views */ = {
-			isa = PBXGroup;
-			children = (
-				ED53E8A61E50B652000411FB /* RedView.h */,
-				ED53E8A71E50B652000411FB /* RedView.m */,
-				ED53E8A91E50B664000411FB /* GreenView.h */,
-				ED53E8AA1E50B664000411FB /* GreenView.m */,
-				ED53E8AC1E50B674000411FB /* BlueView.h */,
-				ED53E8AD1E50B674000411FB /* BlueView.m */,
-				ED53E8AF1E50B690000411FB /* YellowView.h */,
-				ED53E8B01E50B690000411FB /* YellowView.m */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,13 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED53E87A1E50B613000411FB /* ViewController.m in Sources */,
 				ED53E8771E50B613000411FB /* AppDelegate.m in Sources */,
-				ED53E8AE1E50B674000411FB /* BlueView.m in Sources */,
-				ED53E8B11E50B690000411FB /* YellowView.m in Sources */,
-				ED53E8AB1E50B664000411FB /* GreenView.m in Sources */,
-				ED53E8A81E50B652000411FB /* RedView.m in Sources */,
+				ED2F5B571E51555300122D50 /* YellowView.m in Sources */,
+				ED2F5B581E51555300122D50 /* BlueView.m in Sources */,
 				ED53E8741E50B613000411FB /* main.m in Sources */,
+				ED2F5B561E51555300122D50 /* GreenView.m in Sources */,
+				ED2F5B461E51527E00122D50 /* TableViewController.m in Sources */,
+				ED2F5B591E51555300122D50 /* RedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +585,7 @@
 				ED53E89E1E50B613000411FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED53E89F1E50B613000411FB /* Build configuration list for PBXNativeTarget "TouchesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +594,7 @@
 				ED53E8A11E50B613000411FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED53E8A21E50B613000411FB /* Build configuration list for PBXNativeTarget "TouchesDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +603,7 @@
 				ED53E8A41E50B613000411FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
