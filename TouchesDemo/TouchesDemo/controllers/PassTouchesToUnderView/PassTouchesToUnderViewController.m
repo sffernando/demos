@@ -1,23 +1,23 @@
 //
-//  ClickInTableViewCellController.m
+//  PassTouchesToUnderViewController.m
 //  TouchesDemo
 //
 //  Created by fernando on 2017/2/13.
 //  Copyright © 2017年 fernando. All rights reserved.
 //
 
-#import "ClickInTableViewCellController.h"
+#import "PassTouchesToUnderViewController.h"
 
-@interface ClickInTableViewCellController ()
+@interface PassTouchesToUnderViewController ()
 
 @end
 
-@implementation ClickInTableViewCellController
+@implementation PassTouchesToUnderViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.title = @"tableview点击区域";
+    self.navigationItem.title = @"将触摸事件传递给下面试图";
     self.view.backgroundColor = [UIColor whiteColor];
 }
 

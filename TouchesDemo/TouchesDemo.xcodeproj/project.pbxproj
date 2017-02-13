@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		ED2F5B461E51527E00122D50 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B451E51527E00122D50 /* TableViewController.m */; };
-		ED2F5B561E51555300122D50 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B4B1E51555300122D50 /* GreenView.m */; };
-		ED2F5B571E51555300122D50 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B4D1E51555300122D50 /* YellowView.m */; };
 		ED2F5B581E51555300122D50 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B511E51555300122D50 /* BlueView.m */; };
-		ED2F5B591E51555300122D50 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B551E51555300122D50 /* RedView.m */; };
-		ED2F5B5C1E51560C00122D50 /* ClickInTableViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B5B1E51560C00122D50 /* ClickInTableViewCellController.m */; };
 		ED2F5B5F1E51562300122D50 /* ExpandTheClickEreaController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B5E1E51562300122D50 /* ExpandTheClickEreaController.m */; };
-		ED2F5B621E51563900122D50 /* PassTouchesToSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5B611E51563900122D50 /* PassTouchesToSuperViewController.m */; };
+		ED2F5BCE1E51C01900122D50 /* PassTouchesToUnderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5BC61E51C01900122D50 /* PassTouchesToUnderViewController.m */; };
+		ED2F5BCF1E51C01900122D50 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5BC91E51C01900122D50 /* GreenView.m */; };
+		ED2F5BD01E51C01900122D50 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5BCB1E51C01900122D50 /* RedView.m */; };
+		ED2F5BD11E51C01900122D50 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5BCD1E51C01900122D50 /* YellowView.m */; };
 		ED53E8741E50B613000411FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8731E50B613000411FB /* main.m */; };
 		ED53E8771E50B613000411FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8761E50B613000411FB /* AppDelegate.m */; };
 		ED53E87D1E50B613000411FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED53E87B1E50B613000411FB /* Main.storyboard */; };
@@ -44,20 +43,18 @@
 /* Begin PBXFileReference section */
 		ED2F5B441E51527E00122D50 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		ED2F5B451E51527E00122D50 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		ED2F5B4A1E51555300122D50 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
-		ED2F5B4B1E51555300122D50 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
-		ED2F5B4C1E51555300122D50 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
-		ED2F5B4D1E51555300122D50 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
 		ED2F5B501E51555300122D50 /* BlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
 		ED2F5B511E51555300122D50 /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
-		ED2F5B541E51555300122D50 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
-		ED2F5B551E51555300122D50 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
-		ED2F5B5A1E51560C00122D50 /* ClickInTableViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickInTableViewCellController.h; sourceTree = "<group>"; };
-		ED2F5B5B1E51560C00122D50 /* ClickInTableViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickInTableViewCellController.m; sourceTree = "<group>"; };
 		ED2F5B5D1E51562300122D50 /* ExpandTheClickEreaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandTheClickEreaController.h; sourceTree = "<group>"; };
 		ED2F5B5E1E51562300122D50 /* ExpandTheClickEreaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandTheClickEreaController.m; sourceTree = "<group>"; };
-		ED2F5B601E51563900122D50 /* PassTouchesToSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassTouchesToSuperViewController.h; sourceTree = "<group>"; };
-		ED2F5B611E51563900122D50 /* PassTouchesToSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassTouchesToSuperViewController.m; sourceTree = "<group>"; };
+		ED2F5BC51E51C01900122D50 /* PassTouchesToUnderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassTouchesToUnderViewController.h; sourceTree = "<group>"; };
+		ED2F5BC61E51C01900122D50 /* PassTouchesToUnderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassTouchesToUnderViewController.m; sourceTree = "<group>"; };
+		ED2F5BC81E51C01900122D50 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		ED2F5BC91E51C01900122D50 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		ED2F5BCA1E51C01900122D50 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		ED2F5BCB1E51C01900122D50 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		ED2F5BCC1E51C01900122D50 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		ED2F5BCD1E51C01900122D50 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
 		ED53E86F1E50B613000411FB /* TouchesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED53E8731E50B613000411FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED53E8751E50B613000411FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,32 +99,10 @@
 		ED2F5B471E51555300122D50 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				ED2F5B481E51555300122D50 /* ClickInTableViewCell */,
+				ED2F5BC41E51C01900122D50 /* PassTouchesToUnderView */,
 				ED2F5B4E1E51555300122D50 /* ExpandTheClickErea */,
-				ED2F5B521E51555300122D50 /* PassTouchesToSuperView */,
 			);
 			path = controllers;
-			sourceTree = "<group>";
-		};
-		ED2F5B481E51555300122D50 /* ClickInTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				ED2F5B491E51555300122D50 /* views */,
-				ED2F5B5A1E51560C00122D50 /* ClickInTableViewCellController.h */,
-				ED2F5B5B1E51560C00122D50 /* ClickInTableViewCellController.m */,
-			);
-			path = ClickInTableViewCell;
-			sourceTree = "<group>";
-		};
-		ED2F5B491E51555300122D50 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				ED2F5B4A1E51555300122D50 /* GreenView.h */,
-				ED2F5B4B1E51555300122D50 /* GreenView.m */,
-				ED2F5B4C1E51555300122D50 /* YellowView.h */,
-				ED2F5B4D1E51555300122D50 /* YellowView.m */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		ED2F5B4E1E51555300122D50 /* ExpandTheClickErea */ = {
@@ -149,21 +124,25 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		ED2F5B521E51555300122D50 /* PassTouchesToSuperView */ = {
+		ED2F5BC41E51C01900122D50 /* PassTouchesToUnderView */ = {
 			isa = PBXGroup;
 			children = (
-				ED2F5B531E51555300122D50 /* views */,
-				ED2F5B601E51563900122D50 /* PassTouchesToSuperViewController.h */,
-				ED2F5B611E51563900122D50 /* PassTouchesToSuperViewController.m */,
+				ED2F5BC51E51C01900122D50 /* PassTouchesToUnderViewController.h */,
+				ED2F5BC61E51C01900122D50 /* PassTouchesToUnderViewController.m */,
+				ED2F5BC71E51C01900122D50 /* views */,
 			);
-			path = PassTouchesToSuperView;
+			path = PassTouchesToUnderView;
 			sourceTree = "<group>";
 		};
-		ED2F5B531E51555300122D50 /* views */ = {
+		ED2F5BC71E51C01900122D50 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				ED2F5B541E51555300122D50 /* RedView.h */,
-				ED2F5B551E51555300122D50 /* RedView.m */,
+				ED2F5BC81E51C01900122D50 /* GreenView.h */,
+				ED2F5BC91E51C01900122D50 /* GreenView.m */,
+				ED2F5BCA1E51C01900122D50 /* RedView.h */,
+				ED2F5BCB1E51C01900122D50 /* RedView.m */,
+				ED2F5BCC1E51C01900122D50 /* YellowView.h */,
+				ED2F5BCD1E51C01900122D50 /* YellowView.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -365,15 +344,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED53E8771E50B613000411FB /* AppDelegate.m in Sources */,
-				ED2F5B571E51555300122D50 /* YellowView.m in Sources */,
+				ED2F5BD11E51C01900122D50 /* YellowView.m in Sources */,
 				ED2F5B581E51555300122D50 /* BlueView.m in Sources */,
+				ED2F5BD01E51C01900122D50 /* RedView.m in Sources */,
 				ED53E8741E50B613000411FB /* main.m in Sources */,
-				ED2F5B561E51555300122D50 /* GreenView.m in Sources */,
 				ED2F5B5F1E51562300122D50 /* ExpandTheClickEreaController.m in Sources */,
+				ED2F5BCF1E51C01900122D50 /* GreenView.m in Sources */,
+				ED2F5BCE1E51C01900122D50 /* PassTouchesToUnderViewController.m in Sources */,
 				ED2F5B461E51527E00122D50 /* TableViewController.m in Sources */,
-				ED2F5B5C1E51560C00122D50 /* ClickInTableViewCellController.m in Sources */,
-				ED2F5B621E51563900122D50 /* PassTouchesToSuperViewController.m in Sources */,
-				ED2F5B591E51555300122D50 /* RedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,8 @@
 //
 
 #import "TableViewController.h"
-#import "ClickInTableViewCellController.h"
 #import "ExpandTheClickEreaController.h"
-#import "PassTouchesToSuperViewController.h"
+#import "PassTouchesToUnderViewController.h"
 
 @interface TableViewController ()
 
@@ -41,7 +40,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return 2;
 }
 
 
@@ -54,9 +53,6 @@
             break;
         case 1:
             cell.textLabel.text = @"传递触摸事件给下面的试图";
-            break;
-        case 2:
-            cell.textLabel.text = @"tableviewcell中的点击效果优化";
             break;
         default:
             break;
@@ -72,10 +68,7 @@
             controller = [[ExpandTheClickEreaController alloc] init];
             break;
         case 1:
-            controller = [[PassTouchesToSuperViewController alloc] init];
-            break;
-        case 2:
-            controller = [[ClickInTableViewCellController alloc] init];
+            controller = [[PassTouchesToUnderViewController alloc] init];
             break;
         default:
             break;

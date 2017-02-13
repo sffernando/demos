@@ -1,5 +1,5 @@
 //
-//  PassTouchesToSuperViewController.h
+//  PassTouchesToUnderViewController.h
 //  TouchesDemo
 //
 //  Created by fernando on 2017/2/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PassTouchesToSuperViewController : UIViewController
+@interface PassTouchesToUnderViewController : UIViewController
 
 @end
