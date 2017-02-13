@@ -7,6 +7,8 @@
 //
 
 #import "ExpandTheClickEreaController.h"
+#import "BlueView.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ExpandTheClickEreaController ()
 
@@ -19,6 +21,22 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"扩大区域";
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    BlueView *blueView = [[BlueView alloc] initWithFrame:CGRectMake(150, 300, 75, 75)];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToTest:)];
+    [blueView addGestureRecognizer:tap];
+    [self.view addSubview:blueView];
+    
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectInset(blueView.frame, -20, -20)];
+    shapeLayer.path = path.CGPath;
+    shapeLayer.fillColor = [UIColor grayColor].CGColor;
+    [self.view.layer insertSublayer:shapeLayer below:blueView.layer];
+    
+}
+
+- (void)tapToTest:(UITapGestureRecognizer *)tap {
+    NSLog(@"点击了blueView");
 }
 
 - (void)didReceiveMemoryWarning {
