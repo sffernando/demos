@@ -21,6 +21,7 @@
 		ED53E8821E50B613000411FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED53E8801E50B613000411FB /* LaunchScreen.storyboard */; };
 		ED53E88D1E50B613000411FB /* TouchesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E88C1E50B613000411FB /* TouchesDemoTests.m */; };
 		ED53E8981E50B613000411FB /* TouchesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8971E50B613000411FB /* TouchesDemoUITests.m */; };
+		EDED82D81E53469700C06234 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDED82D71E53469700C06234 /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		ED53E8931E50B613000411FB /* TouchesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED53E8971E50B613000411FB /* TouchesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesDemoUITests.m; sourceTree = "<group>"; };
 		ED53E8991E50B613000411FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDED82D61E53469700C06234 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		EDED82D71E53469700C06234 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 			children = (
 				ED2F5BC51E51C01900122D50 /* PassTouchesToUnderViewController.h */,
 				ED2F5BC61E51C01900122D50 /* PassTouchesToUnderViewController.m */,
+				EDED82D61E53469700C06234 /* TextViewController.h */,
+				EDED82D71E53469700C06234 /* TextViewController.m */,
 				ED2F5BC71E51C01900122D50 /* views */,
 			);
 			path = PassTouchesToUnderView;
@@ -348,6 +353,7 @@
 				ED2F5B581E51555300122D50 /* BlueView.m in Sources */,
 				ED2F5BD01E51C01900122D50 /* RedView.m in Sources */,
 				ED53E8741E50B613000411FB /* main.m in Sources */,
+				EDED82D81E53469700C06234 /* TextViewController.m in Sources */,
 				ED2F5B5F1E51562300122D50 /* ExpandTheClickEreaController.m in Sources */,
 				ED2F5BCF1E51C01900122D50 /* GreenView.m in Sources */,
 				ED2F5BCE1E51C01900122D50 /* PassTouchesToUnderViewController.m in Sources */,

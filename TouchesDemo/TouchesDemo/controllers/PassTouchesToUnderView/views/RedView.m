@@ -7,6 +7,7 @@
 //
 
 #import "RedView.h"
+#import "TextViewController.h"
 
 @implementation RedView
 
@@ -32,8 +33,26 @@
     self.backgroundColor = [UIColor redColor];
 }
 
-- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    return self;
+-(UIViewController*)parentController{
+    UIResponder *responder = [self nextResponder];
+    while (responder) {
+        if ([responder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController*)responder;
+        }
+        responder = [responder nextResponder];
+    }
+    return nil;
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    if ([self parentController]) {
+        NSLog(@"%@",NSStringFromClass([[self parentController] class]));
+        if ([self parentController].navigationController) {
+            TextViewController *tc = [[TextViewController alloc] init];
+            [[self parentController].navigationController pushViewController:tc animated:YES];
+        }
+    }
+    [super touchesEnded:touches withEvent:event];
 }
 
 @end
