@@ -20,6 +20,7 @@
 		ED53E8821E50B613000411FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED53E8801E50B613000411FB /* LaunchScreen.storyboard */; };
 		ED53E88D1E50B613000411FB /* TouchesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E88C1E50B613000411FB /* TouchesDemoTests.m */; };
 		ED53E8981E50B613000411FB /* TouchesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED53E8971E50B613000411FB /* TouchesDemoUITests.m */; };
+		ED814FBE1E54A33700EFC2E4 /* 事件响应@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED814FBD1E54A33700EFC2E4 /* 事件响应@2x.png */; };
 		EDED82D81E53469700C06234 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDED82D71E53469700C06234 /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		ED53E8931E50B613000411FB /* TouchesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED53E8971E50B613000411FB /* TouchesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesDemoUITests.m; sourceTree = "<group>"; };
 		ED53E8991E50B613000411FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED814FBD1E54A33700EFC2E4 /* 事件响应@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "事件响应@2x.png"; sourceTree = "<group>"; };
 		EDED82D61E53469700C06234 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		EDED82D71E53469700C06234 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 		ED53E8711E50B613000411FB /* TouchesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ED814FBC1E54A33700EFC2E4 /* images */,
 				ED53E8751E50B613000411FB /* AppDelegate.h */,
 				ED53E8761E50B613000411FB /* AppDelegate.m */,
 				ED2F5B441E51527E00122D50 /* TableViewController.h */,
@@ -208,6 +211,14 @@
 				ED53E8991E50B613000411FB /* Info.plist */,
 			);
 			path = TouchesDemoUITests;
+			sourceTree = "<group>";
+		};
+		ED814FBC1E54A33700EFC2E4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ED814FBD1E54A33700EFC2E4 /* 事件响应@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +329,7 @@
 			files = (
 				ED53E8821E50B613000411FB /* LaunchScreen.storyboard in Resources */,
 				ED53E87F1E50B613000411FB /* Assets.xcassets in Resources */,
+				ED814FBE1E54A33700EFC2E4 /* 事件响应@2x.png in Resources */,
 				ED53E87D1E50B613000411FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
